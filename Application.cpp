@@ -27,8 +27,12 @@ int main()
 
     while (!glfwWindowShouldClose(window))
     {
+        //std::cout << "TEST123" << std::endl;
+
+        /* */
         glfwSwapBuffers(window);
         glfwPollEvents();
+        /* */
     }
 
     glfwTerminate();
